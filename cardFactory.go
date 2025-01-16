@@ -7,7 +7,7 @@ func HeartFactory() *CardFactory {
 }
 
 func DiamondFactory() *CardFactory {
-	return &CardFactory{Suit: getDiamond(), Color: func(a ...interface{}) string { return color.CyanString("%s", a...) }}
+	return &CardFactory{Suit: getDiamond(), Color: func(a ...interface{}) string { return color.GreenString("%s", a...) }}
 }
 
 func ClubFactory() *CardFactory {
