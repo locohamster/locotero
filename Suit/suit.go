@@ -1,4 +1,4 @@
-package main
+package Suit
 
 type Suit int
 
@@ -23,17 +23,17 @@ func SuitToString(suite int) string {
 	return suits[suite]
 }
 
-func getHeart() int {
+func GetHeart() int {
 	return int(Heart)
 }
-func getSpade() int {
+func GetSpade() int {
 	return int(Spade)
 }
 
-func getDiamond() int {
+func GetDiamond() int {
 	return int(Diamond)
 }
 
-func getClub() int {
+func GetClub() int {
 	return int(Club)
 }

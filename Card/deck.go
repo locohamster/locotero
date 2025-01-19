@@ -1,4 +1,4 @@
-package main
+package Card
 
 type Deck struct {
 	Cards []Card
